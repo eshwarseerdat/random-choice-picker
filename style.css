@@ -2,4 +2,53 @@
 
 body {
   font-family: "Roboto";
+  background: linear-gradient(to bottom right, #72f2ec, 75%, #00ccc0);
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #6a7373;
+}
+
+h1 {
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+#choice-text {
+  color: #6a7373;
+  border: 2px solid #747f7f;
+  box-shadow: 5px 5px 5px #1b7f79;
+  margin: 1.5rem auto;
+  font-size: 1.1rem;
+}
+
+#choice-text:focus {
+  outline: 0;
+}
+
+#choices {
+  height: 100%;
+}
+
+#choices span {
+  background-color: #ff4858;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 20px;
+  margin: 0px 0.5rem 0.8rem;
+  display: inline-block;
+}
+
+#choices span.active {
+  background-color: #1b7f79;
 }
